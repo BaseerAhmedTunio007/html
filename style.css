@@ -1,31 +1,54 @@
-.main{
-    text-align: center;
-    color: blue;
+.cantainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
 }
- .mid{
-     text-align: center;
-     color: green;
-    
+.logo{
+    flex: 70%;
 }
-.para {
-    text-align: center;
-    color: red;
+.nav{
+    flex: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+
 }
-.one {
-    background-image:url("myimage.jpg");
+.manu:hover {
+    background-color: red;
+    color: wheat;
     background-attachment: fixed;
-    height: 300px;
     
 }
-table {
-    margin: auto;
-    width: 100%;
-    border: 1px solid blue;
-    background-color: yellowgreen;
+.three{
+    background-image: url("lab.jpg");
+    height: 600px;
+    text-align: center;
+    margin-top: 20px ;
+    color: rgb(255, 0, 221);
+    border-radius: 10px;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+
     
+}
+.imag{
+    border-radius: 10px;
+    box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
+}
 
 
-}
-td,th{
-    border: 1px solid blue;
-}
