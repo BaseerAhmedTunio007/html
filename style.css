@@ -1,31 +1,11 @@
-.main{
-    text-align: center;
-    color: blue;
-}
- .mid{
-     text-align: center;
-     color: green;
-    
-}
-.para {
-    text-align: center;
-    color: red;
-}
 .one {
-    background-image:url("myimage.jpg");
-    background-attachment: fixed;
-    height: 300px;
-    
+    color: aqua;
+    background-color: black;
+    height: 200px;
+    text-align: center;
 }
-table {
-    margin: auto;
-    width: 100%;
-    border: 1px solid blue;
-    background-color: yellowgreen;
-    
-
-
-}
-td,th{
-    border: 1px solid blue;
+.two {
+     background-image: url(bgimage.jpg);
+     height: 500px;
+     background-attachment: fixed;
 }
