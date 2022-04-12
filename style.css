@@ -1,51 +1,31 @@
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: darkgrey;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px 8px 17px 1px rgba(0,0,0,0.75);
-}
-
-.logo {
-    flex: 70%;
-    
-}
-.logoimg{
-    width: 70px;
-    height: 50px;
-}
-.bgimg{
-       background-image: url("lab.jpg");
-       height: 799px;
-       
-    
-}
-
-
-.nav {
-    flex: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    justify-items: center;
-}
-
-
-img {
-    width: 250px;
-}
-.one{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-.card{
+.main{
     text-align: center;
+    color: blue;
+}
+ .mid{
+     text-align: center;
+     color: green;
+    
+}
+.para {
+    text-align: center;
+    color: red;
+}
+.one {
+    background-image:url("myimage.jpg");
+    background-attachment: fixed;
+    height: 300px;
+    
+}
+table {
+    margin: auto;
+    width: 100%;
+    border: 1px solid blue;
+    background-color: yellowgreen;
+    
 
+
+}
+td,th{
+    border: 1px solid blue;
 }
