@@ -1,11 +1,63 @@
-.one {
-    color: aqua;
-    background-color: black;
-    height: 200px;
-    text-align: center;
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
 }
-.two {
-     background-image: url(bgimage.jpg);
-     height: 500px;
-     background-attachment: fixed;
+.left {
+    flex: 50%;
+    background-color: aqua;
+    padding-left: 50px;
+
+}
+.right {
+    flex: 50%;
+    background-color: rebeccapurple;
+    padding-left: 50px;
+    padding-top: 50px;
+    animation: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes myanimation {
+    0% {background-color: yellow;}
+    25% {background-color: pink;}
+    50% {background-color: blue;}
+    75% {background-color: green;}
+    100% {background-color: purple;}
+  }
+  .label {
+      padding-right: 40px;
+  }
+  .label1 {
+      padding-right: 17px;
+  }
+  form div {
+    margin-bottom: 10px;
+   
+}
+form div label {
+    color: whitesmoke;
+}
+.go:hover {
+
+background-color: rgb(218, 40, 40);
+transform: scaleY(20deg);
+position: relative;
+
+
+}
+@media only screen and (max-width: 600px) 
+{
+    .main{
+        flex-direction: column;
+    
+    } 
+    .left {
+        padding-top: 100px;
+        background-color:black;
+        color: white;
+    }
+    
 }
