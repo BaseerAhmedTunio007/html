@@ -1,0 +1,11 @@
+.one {
+    color: aqua;
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+.two {
+     background-image: url(bgimage.jpg);
+     height: 500px;
+     background-attachment: fixed;
+}
